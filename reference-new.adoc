@@ -16,7 +16,7 @@ summary: Cloud Volumes ONTAP 9.9.0 enthält mehrere neue Funktionen und Verbesse
 [role="lead"]
 Cloud Volumes ONTAP 9.9.0 enthält mehrere neue Funktionen und Verbesserungen.
 
-Zusätzliche Funktionen und Verbesserungen sind auch in den neuesten Versionen von Cloud Manager eingeführt. Siehe https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Versionshinweise Zu Cloud Manager"^] Entsprechende Details.
+Zusätzliche Funktionen und Erweiterungen sind ebenfalls in den neuesten Versionen von BlueXP verfügbar. Siehe https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Versionshinweise zu BlueXP"^] Entsprechende Details.
 
 
 
@@ -51,7 +51,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-planning-yo
 * Cloud Volumes ONTAP unterstützt keine sc1-Festplatten (Cold HDD) mehr.
 
 
-Diese EBS Festplattenänderungen wurden als Teil von Cloud Manager 3.9.5 eingeführt.
+Diese EBS-Plattenänderungen wurden im Rahmen von BlueXP 3.9.5 eingeführt.
 
 *Azure Updates*
 
@@ -111,26 +111,26 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 
 
 
-== Erforderliche Version des Cloud Manager Connectors
+== Erforderliche Version des BlueXP Connectors
 
-Der Cloud Manager Connector muss Version 3.9.4 oder höher ausführen, um neue Cloud Volumes ONTAP 9.9.0-Systeme bereitzustellen und vorhandene Systeme auf 9.9 zu aktualisieren.
+Der BlueXP-Connector muss Version 3.9.4 oder höher ausführen, um neue Cloud Volumes ONTAP 9.9.0-Systeme bereitzustellen und bestehende Systeme auf 9.9 zu aktualisieren.
 
 
 
-== Änderungen mit Cloud Manager 3.9.4
+== Änderungen mit Version 3.9.4 des Connectors eingeführt
 
-Die Version Cloud Manager 3.9.4 enthält einige Verbesserungen für das Management von Cloud Volumes ONTAP, darunter Verbesserungen der AWS KMS-Unterstützung, Shared VPC-Unterstützung in Google Cloud und die Verringerung der IPs in Google Cloud.
+Die Version 3.9.4 des Connectors enthält einige Verbesserungen für das Management von Cloud Volumes ONTAP, darunter Verbesserungen der AWS KMS Unterstützung, die gemeinsame VPC-Unterstützung in Google Cloud und die Verringerung der IPs in Google Cloud.
 
-Wechseln Sie zum https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Versionshinweise Zu Cloud Manager"^] Weitere Informationen zur Version 3.9.4.
+Wechseln Sie zum https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Versionshinweise zu BlueXP"^] Weitere Informationen zur Version 3.9.4.
 
 
 
 == Upgrade-Hinweise
 
-* Upgrades von Cloud Volumes ONTAP müssen von Cloud Manager abgeschlossen werden. Sie sollten kein Cloud Volumes ONTAP-Upgrade mit System Manager oder der CLI durchführen. Dies kann die Stabilität des Systems beeinträchtigen.
-* Sie können ein Upgrade von Version 9.8 auf Cloud Volumes ONTAP 9.9.0 durchführen. Cloud Manager fordert Sie zum Upgrade Ihrer vorhandenen Cloud Volumes ONTAP 9.8 Systeme auf Version 9.9.0 auf.
+* Upgrades von Cloud Volumes ONTAP müssen von BlueXP abgeschlossen werden. Sie sollten kein Cloud Volumes ONTAP-Upgrade mit System Manager oder der CLI durchführen. Dies kann die Stabilität des Systems beeinträchtigen.
+* Sie können ein Upgrade von Version 9.8 auf Cloud Volumes ONTAP 9.9.0 durchführen. BlueXP fordert Sie auf, Ihre vorhandenen Cloud Volumes ONTAP 9.8-Systeme auf Version 9.9.0 zu aktualisieren.
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["Informieren Sie sich, wie ein Upgrade durchgeführt wird, wenn Cloud Manager Sie benachrichtigt"^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["Erfahren Sie, wie Sie aktualisiert werden können, wenn Sie von BlueXP benachrichtigt werden"^].
 
 * Das Upgrade eines einzelnen Node-Systems nimmt das System für bis zu 25 Minuten offline, während dieser I/O-Unterbrechung erfolgt.
 * Das Upgrade eines HA-Paars erfolgt unterbrechungsfrei und die I/O wird unterbrochen. Während dieses unterbrechungsfreien Upgrade-Prozesses wird jeder Node entsprechend aktualisiert, um den I/O-Datenverkehr für die Clients weiterhin bereitzustellen.
