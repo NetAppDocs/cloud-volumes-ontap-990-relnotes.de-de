@@ -16,7 +16,7 @@ summary: Cloud Volumes ONTAP 9.9.0 enthält mehrere neue Funktionen und Verbesse
 [role="lead"]
 Cloud Volumes ONTAP 9.9.0 enthält mehrere neue Funktionen und Verbesserungen.
 
-Zusätzliche Funktionen und Erweiterungen sind ebenfalls in den neuesten Versionen von BlueXP verfügbar. Siehe https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Versionshinweise zu BlueXP"^] Entsprechende Details.
+Zusätzliche Funktionen und Erweiterungen sind ebenfalls in den neuesten Versionen von BlueXP verfügbar. Siehe https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Versionshinweise zu BlueXP"^] Entsprechende Details.
 
 
 
@@ -24,7 +24,7 @@ Zusätzliche Funktionen und Erweiterungen sind ebenfalls in den neuesten Version
 
 In AWS werden die Instanztypen c4, m4 und r4 EC2 nicht mehr mit Cloud Volumes ONTAP unterstützt. Wenn Sie bereits ein System besitzen, das auf einem Instanztyp c4, m4 oder r4 ausgeführt wird, müssen Sie in der instanzfamilie c5, m5 oder r5 auf einen Instanztyp wechseln.
 
-link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["Erfahren Sie, wie Sie den EC2 Instanztyp für Cloud Volumes ONTAP ändern"^].
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["Erfahren Sie, wie Sie den EC2 Instanztyp für Cloud Volumes ONTAP ändern"^].
 
 Siehe link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp Support"^] Hier erhalten Sie weitere Informationen über das Ende der Verfügbarkeit und die Unterstützung dieser Instanztypen.
 
@@ -46,7 +46,7 @@ Seit der Veröffentlichung von Cloud Volumes ONTAP 9.9.0 wurden einige Aktualisi
 
 * Cloud Volumes ONTAP unterstützt ab Version 9.7 jetzt gp3-Laufwerke (General Purpose SSD). gp3-Festplatten sind die kostengünstigsten SSDs, die für ein breites Spektrum an Workloads ein ausgewogenes Verhältnis zwischen Kosten und Performance bieten.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-planning-your-config.html#sizing-your-system-in-aws["Erfahren Sie mehr über die Verwendung von gp3-Datenträgern mit Cloud Volumes ONTAP"^].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-planning-your-config.html#sizing-your-system-in-aws["Erfahren Sie mehr über die Verwendung von gp3-Datenträgern mit Cloud Volumes ONTAP"^].
 
 * Cloud Volumes ONTAP unterstützt keine sc1-Festplatten (Cold HDD) mehr.
 
@@ -107,7 +107,7 @@ Storage VMs, die Sie für die Disaster Recovery (DR) konfigurieren, erfordern ke
 
 link:reference-limits-azure.html#storage-vm-limits["Erfahren Sie mehr über Storage-VM-Limits in Azure"].
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-azure.html["Lesen Sie, wie Sie Daten-Serving-Storage-VMs für Cloud Volumes ONTAP in Azure erstellen"^].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["Lesen Sie, wie Sie Daten-Serving-Storage-VMs für Cloud Volumes ONTAP in Azure erstellen"^].
 
 
 
@@ -121,7 +121,7 @@ Der BlueXP-Connector muss Version 3.9.4 oder höher ausführen, um neue Cloud Vo
 
 Die Version 3.9.4 des Connectors enthält einige Verbesserungen für das Management von Cloud Volumes ONTAP, darunter Verbesserungen der AWS KMS Unterstützung, die gemeinsame VPC-Unterstützung in Google Cloud und die Verringerung der IPs in Google Cloud.
 
-Wechseln Sie zum https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Versionshinweise zu BlueXP"^] Weitere Informationen zur Version 3.9.4.
+Wechseln Sie zum https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Versionshinweise zu BlueXP"^] Weitere Informationen zur Version 3.9.4.
 
 
 
@@ -130,7 +130,7 @@ Wechseln Sie zum https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap
 * Upgrades von Cloud Volumes ONTAP müssen von BlueXP abgeschlossen werden. Sie sollten kein Cloud Volumes ONTAP-Upgrade mit System Manager oder der CLI durchführen. Dies kann die Stabilität des Systems beeinträchtigen.
 * Sie können ein Upgrade von Version 9.8 auf Cloud Volumes ONTAP 9.9.0 durchführen. BlueXP fordert Sie auf, Ihre vorhandenen Cloud Volumes ONTAP 9.8-Systeme auf Version 9.9.0 zu aktualisieren.
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["Erfahren Sie, wie Sie aktualisiert werden können, wenn Sie von BlueXP benachrichtigt werden"^].
+http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["Erfahren Sie, wie Sie aktualisiert werden können, wenn Sie von BlueXP benachrichtigt werden"^].
 
 * Das Upgrade eines einzelnen Node-Systems nimmt das System für bis zu 25 Minuten offline, während dieser I/O-Unterbrechung erfolgt.
 * Das Upgrade eines HA-Paars erfolgt unterbrechungsfrei und die I/O wird unterbrochen. Während dieses unterbrechungsfreien Upgrade-Prozesses wird jeder Node entsprechend aktualisiert, um den I/O-Datenverkehr für die Clients weiterhin bereitzustellen.
