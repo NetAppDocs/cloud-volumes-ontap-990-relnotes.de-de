@@ -20,6 +20,7 @@ Zusätzliche Funktionen und Erweiterungen sind ebenfalls in den neuesten Version
 
 
 
+[[latest-update-21-apr-2021]]
 == Letzte Aktualisierung (21. April 2021)
 
 In AWS können Sie jetzt bis zu 24 Storage VMs (SVMs) für die Disaster Recovery (DR) konfigurieren. Das vorherige Limit war 12 Storage VMs, die für DR verwendet wurden.
@@ -28,6 +29,7 @@ link:reference-limits-aws.html#storage-vm-limits["Erfahren Sie mehr über die Be
 
 
 
+[[latest-updates-12-apr-2021]]
 == Neueste Updates (12. April 2021)
 
 Seit der Veröffentlichung von Cloud Volumes ONTAP 9.9.0 wurden einige Aktualisierungen vorgenommen.
@@ -60,18 +62,21 @@ Der vorherige Grenzwert in der Version 9.9.0 betrug 12 Storage VMs, die für die
 
 
 
+[[9-9-0-ga-9-mar-2021]]
 == 9.9.0 GA (9. März 2021)
 
 Die Version 9.9.0 GA ist in AWS, Azure und Google Cloud Platform verfügbar. Die Version umfasst die folgenden neuen Funktionen und Verbesserungen.
 
 
 
+[[improved-write-performance]]
 === Verbesserte Schreib-Performance
 
 Diese Version umfasst eine verbesserte Schreib-Performance für Cloud Volumes ONTAP in allen Cloud-Providern und auf allen Konfigurationen.
 
 
 
+[[support-for-new-ec2-instance-types]]
 === Unterstützung für neue EC2 Instanztypen
 
 Cloud Volumes ONTAP wird jetzt mit folgenden Amazon EC2 Instanztypen unterstützt:
@@ -87,6 +92,7 @@ link:reference-configs-aws.html["Unterstützte Konfigurationen in AWS anzeigen"]
 
 
 
+[[support-for-24-storage-vms-in-azure]]
 === Unterstützung von 24 Storage-VMs in Azure
 
 24 Storage VMs werden jetzt mit Cloud Volumes ONTAP in Azure unterstützt, wenn Sie Ihre eigene Lizenz (BYOL) mitbringen. Dies umfasst bis zu 12 Storage VMs, die für DR verwendet werden.
@@ -101,12 +107,14 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azur
 
 
 
+[[required-version-of-the-bluexp-connector]]
 == Erforderliche Version des BlueXP Connectors
 
 Der BlueXP-Connector muss Version 3.9.4 oder höher ausführen, um neue Cloud Volumes ONTAP 9.9.0-Systeme bereitzustellen und bestehende Systeme auf 9.9 zu aktualisieren.
 
 
 
+[[changes-introduced-with-version-3-9-4-of-the-connector]]
 == Änderungen mit Version 3.9.4 des Connectors eingeführt
 
 Die Version 3.9.4 des Connectors enthält einige Verbesserungen für das Management von Cloud Volumes ONTAP, darunter Verbesserungen der AWS KMS Unterstützung, die gemeinsame VPC-Unterstützung in Google Cloud und die Verringerung der IPs in Google Cloud.
@@ -115,6 +123,7 @@ Wechseln Sie zum https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-
 
 
 
+[[upgrade-notes]]
 == Upgrade-Hinweise
 
 * Upgrades von Cloud Volumes ONTAP müssen von BlueXP abgeschlossen werden. Sie sollten kein Cloud Volumes ONTAP-Upgrade mit System Manager oder der CLI durchführen. Dies kann die Stabilität des Systems beeinträchtigen.

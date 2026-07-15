@@ -632,7 +632,6 @@ Die eine Datenservice-SVM umfasst das gesamte Cloud Volumes ONTAP System (HA-Paa
   <block id="52797d8e71c2180397961c168612e4b1" category="inline-link-macro">Erfahren Sie, wie Sie ein Upgrade in AWS mit EC2-Instanztypen c4, m4 und R4 durchführen.</block>
   <block id="81a04fd94750bd8d6eba4ddcd31937d5" category="paragraph"><block ref="8c187d79d64725fc1c5fe18120107add" category="inline-link-macro-rx"></block>
 <block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>.</block>
-  <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">Die in der nachstehenden Tabelle aufgeführten Bandbreiten entsprechen den dokumentierten AWS Limits für jeden Instanztyp. Diese Einschränkungen stimmen nicht vollständig mit den Funktionen von Cloud Volumes ONTAP ab. Informationen zur erwarteten Leistung finden Sie unter<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>.</block>
   <block id="6b32e99bddf60938239aabe092cb4c16" category="paragraph">Für Cloud Volumes ONTAP sind verschiedene Lizenzierungsoptionen verfügbar. Jede Option ermöglicht Ihnen, ein Nutzungsmodell auszuwählen, das Ihren Anforderungen entspricht.</block>
   <block id="27fe4eb3edbaff8f250e2d51f7462681" category="inline-link">Pakete</block>
   <block id="13dba612a4f942a80cbc82c5f678d57c" category="inline-link">Mehr zu kapazitätsbasierten Lizenzen</block>
@@ -644,4 +643,5 @@ Die eine Datenservice-SVM umfasst das gesamte Cloud Volumes ONTAP System (HA-Paa
   <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Informationen zur Unterstützung von Azure-Regionen finden Sie unter<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
   <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">Informationen zur regionalen Unterstützung von Google Cloud Platform finden Sie unter<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
   <block id="26f113c6240bf0450440356676516cf1" category="paragraph"><block ref="26f113c6240bf0450440356676516cf1" category="inline-link-rx"></block></block>
+  <block id="fb83bdf454bf964031306f46d967b051" category="paragraph">Die in der folgenden Tabelle aufgeführten Bandbreiten entsprechen den dokumentierten AWS-Grenzwerten für jeden Instanztyp. Diese Grenzwerte stimmen nicht vollständig mit dem überein, was Cloud Volumes ONTAP bereitstellen kann. Für die erwartete Leistung siehe <block ref="f9e25e1e3616de01564541c204317f8f" category="inline-link-rx"></block>.</block>
 </blocks>

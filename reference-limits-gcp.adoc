@@ -18,6 +18,7 @@ Cloud Volumes ONTAP verfügt über Einschränkungen bei der Storage-Konfiguratio
 
 
 
+[[maximum-system-capacity-by-license]]
 == Maximale Systemkapazität nach Lizenz
 
 Die maximale Systemkapazität eines Cloud Volumes ONTAP-Systems wird durch seine Lizenz bestimmt. Die maximale Systemkapazität umfasst festplattenbasierten Storage sowie Objekt-Storage für Daten-Tiering.
@@ -56,6 +57,7 @@ Nein, das tut es nicht. Die Daten in einem HA-Paar werden zwischen den Nodes syn
 
 
 
+[[disk-and-tiering-limits]]
 == Grenzwerte für Festplatte und Tiering
 
 Die folgende Tabelle zeigt die maximale Systemkapazität mit Festplatten allein, mit Festplatten und selten benötigten Daten-Tiering in den Objekt-Storage. Die Festplattenbeschränkungen gelten für Festplatten, die Benutzerdaten enthalten. Die Grenzen beinhalten nicht die Boot-Festplatte und Root-Festplatte.
@@ -84,6 +86,7 @@ Die folgende Tabelle zeigt die maximale Systemkapazität mit Festplatten allein,
 
 
 
+[[aggregate-limits]]
 == Aggregatgrenzen
 
 Cloud Volumes ONTAP gruppiert Google Cloud Festplatten zu _Aggregaten_. Aggregate stellen Storage auf Volumes zur Verfügung.
@@ -117,6 +120,7 @@ Hinweise:
 
 
 
+[[logical-storage-limits]]
 == Logische Storage-Einschränkungen
 
 [cols="22,22,56"]
@@ -165,6 +169,7 @@ Hinweise:
 
 
 
+[[iscsi-storage-limits]]
 == ISCSI-Storage-Einschränkungen
 
 [cols="3*"]

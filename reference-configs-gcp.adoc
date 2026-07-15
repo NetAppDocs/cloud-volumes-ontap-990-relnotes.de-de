@@ -18,6 +18,7 @@ Google Cloud unterstützt verschiedene Cloud Volumes ONTAP Konfigurationen.
 
 
 
+[[supported-configurations-by-license]]
 == Unterstützte Konfigurationen nach Lizenz
 
 Cloud Volumes ONTAP ist in der Google Cloud Platform als Single-Node-System und als HA-Paar Nodes für Fehlertoleranz und unterbrechungsfreien Betrieb verfügbar.
@@ -88,6 +89,7 @@ Wenn auf diesem Maschinentyp ein System ausgeführt wird, können Sie es weiterh
 
 
 
+[[supported-disk-sizes]]
 == Unterstützte Festplattengrößen
 
 In Google Cloud kann ein Aggregat bis zu 6 Festplatten enthalten, die vom gleichen Typ und derselben Größe sind. Folgende Festplattengrößen werden unterstützt:

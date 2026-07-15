@@ -18,6 +18,7 @@ In Azure werden mehrere Cloud Volumes ONTAP Konfigurationen unterstützt.
 
 
 
+[[supported-configurations-by-license]]
 == Unterstützte Konfigurationen nach Lizenz
 
 Cloud Volumes ONTAP ist in Azure als Single-Node-System und als HA-Paar Nodes für Fehlertoleranz und unterbrechungsfreien Betrieb verfügbar.
@@ -26,6 +27,7 @@ Ein Upgrade eines Single Node-Systems auf ein HA-Paar wird nicht unterstützt. W
 
 
 
+[[single-node-systems]]
 === Systeme mit einzelnen Nodes
 
 Bei der Implementierung von Cloud Volumes ONTAP als Single-Node-System in Azure können Sie eine der folgenden Konfigurationen wählen.
@@ -118,6 +120,7 @@ Hinweise:
 
 
 
+[[ha-pairs]]
 === HA-Paare
 
 Sie können eine der folgenden Konfigurationen wählen, wenn Sie Cloud Volumes ONTAP als HA-Paar in Azure implementieren.
@@ -188,12 +191,14 @@ Hinweise:
 
 
 
+[[supported-disk-sizes]]
 == Unterstützte Festplattengrößen
 
 In Azure kann ein Aggregat bis zu 12 Festplatten enthalten, die vom gleichen Typ und derselben Größe sind.
 
 
 
+[[single-node-systems]]
 === Systeme mit einzelnen Nodes
 
 Systeme mit einem Node verwenden Azure Managed Disks. Folgende Festplattengrößen werden unterstützt:
@@ -236,6 +241,7 @@ Systeme mit einem Node verwenden Azure Managed Disks. Folgende Festplattengröß
 |===
 
 
+[[ha-pairs]]
 === HA-Paare
 
 HA-Paare verwenden Premium-Blobs für Seite. Folgende Festplattengrößen werden unterstützt:
